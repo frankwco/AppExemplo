@@ -19,6 +19,7 @@ public class MostrarTime extends AppCompatActivity {
         Toast.makeText(this, ""+density+"- "+DisplayMetrics.DENSITY_MEDIUM, Toast.LENGTH_SHORT).show();
 
 
+
         Intent intent = getIntent();
         Bundle bundle = getIntent().getExtras();
         if(bundle.containsKey("time")){
